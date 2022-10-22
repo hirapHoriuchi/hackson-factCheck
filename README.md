@@ -77,5 +77,6 @@ BERT(Hugging Face Tokenizer)
 - ニュース記事一文一文に対して，事実と意見の判別を行うようにファインチューニングを行いました．
 - [機械学習で事実と意見の判断をできるようにしました．](https://github.com/jphacks/D_2206/blob/master/app/server/src/app.py)
 
-###動作の様子
+### 動作の様子
+
 ![Test Image 1](./jphacks-factChecker.png)
