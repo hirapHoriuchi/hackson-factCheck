@@ -10,8 +10,10 @@ services:
 
   front:
     build: ./app/front/
+    tty: true
     ports:
       - "3000:3000"
     volumes:
+      - "/app/node_modules"
       - ./app/front/src/jphacks-front:/usr/src/app/
-    command: sh -c "npm run start"
+    command: sh -c " npm install && npm run start"
